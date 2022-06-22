@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/x-icon" href="images/icontho.png">
+        <title>testing</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" type="image/x-icon" href="images/icontho.png">
+    </head>
+<!--
+    <head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+    <title>Minadolf</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shorcut icon" type="image/png" href="images\wibu.png">
+</head>
+-->
+<div class="container">
+    <div class="box">
+        <div class="clock">
+            <div class="hour">
+                <div class="hr" id="hr"></div>
+            </div>
+            <div class="min">
+                <div class="mn" id="mn"></div>
+            </div>
+            <div class="sec">
+                <div class="sc" id="sc"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<body oncontextmenu="return false">
+    <div class="card" data-state="#about">
+        <div class="card-header">
+            <div class="card-cover" style="background-image: url('images/lofiava.jfif')"></div>
+            <img class="card-avatar" src="images/avatar.jpg" alt="avatar" />
+            <h1 class="card-fullname"><strong> Nguyễn Chí Phú </strong> </h1>
+            <h2 class="card-jobtitle">Graphic Design</h2>
+        </div>
+        <div class="card-main">
+           
+            <div class="card-section is-active" id="about">
+                <div class="card-content">
+                    <div class="card-subtitle">THÔNG TIN CÁ NHÂN</div>
+                    <p class="card-desc"> Biệt danh Min cheesePhu sinh ngày 10/04/2002 cung Bạch Dương  🤭 
+                        <br>
+                        <br>
+                       <strong> P/s: nhấn phím cách để bật/tắt nhạc và đừng nhấn vào thùng rác nhé</strong>
+                    </p>
+                </div>
+                <div class="card-social">
+
+                    <a href="https://www.facebook.com/CheesePhu/" target="_blank"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.997 3.985h2.191V.169C17.81.117 16.51 0 14.996 0c-3.159 0-5.323 1.987-5.323 5.639V9H6.187v4.266h3.486V24h4.274V13.267h3.345l.531-4.266h-3.877V6.062c.001-1.233.333-2.077 2.051-2.077z" /></svg></a>
+
+                    <a href="https://www.instagram.com/cheesephu/following/" target="_blank"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+<path d="M301 256c0 24.852-20.148 45-45 45s-45-20.148-45-45 20.148-45 45-45 45 20.148 45 45zm0 0" />
+<path d="M332 120H180c-33.086 0-60 26.914-60 60v152c0 33.086 26.914 60 60 60h152c33.086 0 60-26.914 60-60V180c0-33.086-26.914-60-60-60zm-76 211c-41.355 0-75-33.645-75-75s33.645-75 75-75 75 33.645 75 75-33.645 75-75 75zm86-146c-8.285 0-15-6.715-15-15s6.715-15 15-15 15 6.715 15 15-6.715 15-15 15zm0 0" />
+<path d="M377 0H135C60.562 0 0 60.563 0 135v242c0 74.438 60.563 135 135 135h242c74.438 0 135-60.563 135-135V135C512 60.562 451.437 0 377 0zm45 332c0 49.625-40.375 90-90 90H180c-49.625 0-90-40.375-90-90V180c0-49.625 40.375-90 90-90h152c49.625 0 90 40.375 90 90zm0 0" /></svg></a>
+<!-- 
+                    <a href="https://discord.gg/94tWbkm"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+<path d="M6.552 6.712c-.456 0-.816.4-.816.888s.368.888.816.888c.456 0 .816-.4.816-.888.008-.488-.36-.888-.816-.888zm2.92 0c-.456 0-.816.4-.816.888s.368.888.816.888c.456 0 .816-.4.816-.888s-.36-.888-.816-.888z" />
+<path d="M13.36 0H2.64C1.736 0 1 .736 1 1.648v10.816c0 .912.736 1.648 1.64 1.648h9.072l-.424-1.48 1.024.952.968.896L15 16V1.648C15 .736 14.264 0 13.36 0zm-3.088 10.448s-.288-.344-.528-.648c1.048-.296 1.448-.952 1.448-.952-.328.216-.64.368-.92.472-.4.168-.784.28-1.16.344a5.604 5.604 0 0 1-2.072-.008 6.716 6.716 0 0 1-1.176-.344 4.688 4.688 0 0 1-.584-.272c-.024-.016-.048-.024-.072-.04-.016-.008-.024-.016-.032-.024-.144-.08-.224-.136-.224-.136s.384.64 1.4.944c-.24.304-.536.664-.536.664-1.768-.056-2.44-1.216-2.44-1.216 0-2.576 1.152-4.664 1.152-4.664 1.152-.864 2.248-.84 2.248-.84l.08.096c-1.44.416-2.104 1.048-2.104 1.048s.176-.096.472-.232c.856-.376 1.536-.48 1.816-.504.048-.008.088-.016.136-.016a6.521 6.521 0 0 1 4.024.752s-.632-.6-1.992-1.016l.112-.128s1.096-.024 2.248.84c0 0 1.152 2.088 1.152 4.664 0 0-.68 1.16-2.448 1.216z" />
+</svg></a>
+
+                    <a href="https://msng.link/o/?393475185652=vi"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 20 20">
+<path d="M15.77,3.488c-2.266-0.067-3.801,1.105-4.605,3.519c0.415-0.158,0.817-0.237,1.206-0.237c0.829,0,1.193,0.428,1.097,1.284c-0.049,0.52-0.414,1.275-1.097,2.268c-0.682,0.993-1.192,1.489-1.534,1.489c-0.439,0-0.841-0.767-1.206-2.3C9.508,9.06,9.288,7.909,8.972,6.06C8.679,4.346,7.899,3.545,6.633,3.658c-0.537,0.045-1.34,0.496-2.412,1.354c-0.78,0.654-1.572,1.308-2.375,1.962l0.767,0.914c0.73-0.474,1.157-0.711,1.279-0.711c0.56,0,1.084,0.812,1.571,2.436c0.439,1.489,0.878,2.979,1.316,4.468c0.658,1.624,1.462,2.436,2.412,2.436c1.535,0,3.412-1.33,5.628-3.992c2.144-2.549,3.253-4.557,3.326-6.023C18.242,4.537,17.451,3.534,15.77,3.488" />
+</svg></a> -->
+
+                    <a href="http://facebook.com/profile.php?=73322363"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.114,3.923h-4.589V2.427c0-0.252-0.207-0.459-0.46-0.459H7.935c-0.252,0-0.459,0.207-0.459,0.459v1.496h-4.59c-0.252,0-0.459,0.205-0.459,0.459c0,0.252,0.207,0.459,0.459,0.459h1.51v12.732c0,0.252,0.207,0.459,0.459,0.459h10.29c0.254,0,0.459-0.207,0.459-0.459V4.841h1.511c0.252,0,0.459-0.207,0.459-0.459C17.573,4.127,17.366,3.923,17.114,3.923M8.394,2.886h3.214v0.918H8.394V2.886z M14.686,17.114H5.314V4.841h9.372V17.114z M12.525,7.306v7.344c0,0.252-0.207,0.459-0.46,0.459s-0.458-0.207-0.458-0.459V7.306c0-0.254,0.205-0.459,0.458-0.459S12.525,7.051,12.525,7.306M8.394,7.306v7.344c0,0.252-0.207,0.459-0.459,0.459s-0.459-0.207-0.459-0.459V7.306c0-0.254,0.207-0.459,0.459-0.459S8.394,7.051,8.394,7.306" /></svg></a>
+                </div>
+            </div>
+        
+            <div class="card-section" id="payment">
+                <div class="card-content">
+                    <div class="card-subtitle">THÔNG TIN THANH TOÁN</div>
+                    <div class="card-item-desc">NGUYỄN CHÍ PHÚ</div>
+                    <div class="card-timeline">
+                        <div class="card-item" data-year="1">
+                            <div class="card-item-title"><span>VIETCOMBANK</span></div>
+                            <div class="card-item-desc">1016373761 <br> NGUYEN CHI PHU </div>
+                        </div>
+                        <!-- <div class="card-item" data-year="2">
+                            <div class="card-item-title"><span>Paypal</span></div>
+                            <div class="card-item-desc">paypal.me/adolfmin <br>Adolf Min</div>
+                        </div> -->
+                        
+                        <div class="card-item" data-year="3">
+                            <div class="card-item-title"><span>Momo</span></div>
+                            <div class="card-item-desc">0328377784<br> Nguyễn Chí Phú</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="card-section" id="contact">
+                <div class="card-content">
+                    <div class="card-subtitle">LIÊN HỆ</div>
+                    <div class="card-contact-wrapper">
+                        <div class="card-contact">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+<circle cx="12" cy="10" r="3" /></svg> làm gì có địa chỉ nhà </div>
+                        <div class="card-contact">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" /></svg>(+84)
+                            328-377-784
+                        </div>
+                        <div class="card-contact">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+<path d="M22 6l-10 7L2 6" />
+
+</svg> nshu946@gmail.com                           
+                        </div>
+                        <!-- <div class="card-contact">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M17.671,13.945l0.003,0.002l1.708-7.687l-0.008-0.002c0.008-0.033,0.021-0.065,0.021-0.102c0-0.236-0.191-0.428-0.427-0.428H5.276L4.67,3.472L4.665,3.473c-0.053-0.175-0.21-0.306-0.403-0.306H1.032c-0.236,0-0.427,0.191-0.427,0.427c0,0.236,0.191,0.428,0.427,0.428h2.902l2.667,9.945l0,0c0.037,0.119,0.125,0.217,0.239,0.268c-0.16,0.26-0.257,0.562-0.257,0.891c0,0.943,0.765,1.707,1.708,1.707S10,16.068,10,15.125c0-0.312-0.09-0.602-0.237-0.855h4.744c-0.146,0.254-0.237,0.543-0.237,0.855c0,0.943,0.766,1.707,1.708,1.707c0.944,0,1.709-0.764,1.709-1.707c0-0.328-0.097-0.631-0.257-0.891C17.55,14.182,17.639,14.074,17.671,13.945 M15.934,6.583h2.502l-0.38,1.709h-2.312L15.934,6.583zM5.505,6.583h2.832l0.189,1.709H5.963L5.505,6.583z M6.65,10.854L6.192,9.146h2.429l0.19,1.708H6.65z M6.879,11.707h2.027l0.189,1.709H7.338L6.879,11.707z M8.292,15.979c-0.472,0-0.854-0.383-0.854-0.854c0-0.473,0.382-0.855,0.854-0.855s0.854,0.383,0.854,0.855C9.146,15.596,8.763,15.979,8.292,15.979 M11.708,13.416H9.955l-0.189-1.709h1.943V13.416z M11.708,10.854H9.67L9.48,9.146h2.228V10.854z M11.708,8.292H9.386l-0.19-1.709h2.512V8.292z M14.315,13.416h-1.753v-1.709h1.942L14.315,13.416zM14.6,10.854h-2.037V9.146h2.227L14.6,10.854z M14.884,8.292h-2.321V6.583h2.512L14.884,8.292z M15.978,15.979c-0.471,0-0.854-0.383-0.854-0.854c0-0.473,0.383-0.855,0.854-0.855c0.473,0,0.854,0.383,0.854,0.855C16.832,15.596,16.45,15.979,15.978,15.979 M16.917,13.416h-1.743l0.189-1.709h1.934L16.917,13.416z M15.458,10.854l0.19-1.708h2.218l-0.38,1.708H15.458z" />
+</svg>
+<a href="https://www.etsy.com/shop/YouCantMissIt">Shop quần áo</a> 
+                        </div> -->
+                        <!-- <button id="contact-me" class="contact-me">KẾT NỐI</button> -->
+                    </div>
+                </div>
+            </div>
+            <div class="card-buttons">
+                <button data-section="#about" class="is-active">THÔNG TIN</button>
+                <button data-section="#payment">TÀI KHOẢN</button>
+                <button data-section="#contact">LIÊN HỆ</button>
+            </div>
+        </div>
+    </div>
+   <audio id="lesson" src="assets\inten.mp3" autoplay="false" hidden="true" loop="true">
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="./scripts/script.js"></script>
+    <div>
+
+</div>
+</body>
+<script type="text/javascript">
+    var play = false;
+    var myAudio = document.getElementById("lesson");
+
+    myAudio.volume = 0.5;
+
+    function onKeyDown(event) {
+        switch (event.keyCode) {
+            case 32:
+                if (play) {
+                    myAudio.pause();
+                    play = false;
+                } else {
+                    myAudio.play();
+                    play = true;
+                }
+                break;
+        }
+        return false;
+    }
+
+    window.addEventListener("keydown", onKeyDown, false);
+
+    // To disable right click
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
+    // To disable F12 options
+    document.onkeypress = function(event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+            alert('Xin lỗi bạn hí hí, mình tắt phím này rồi!!');
+            return false;
+        }
+    }
+    document.onmousedown = function(event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+            alert('Xin lỗi bạn hí hí, mình tắt phím này rồi!!');
+            return false;
+        }
+    }
+    document.onkeydown = function(event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+            alert('Xin lỗi bạn hí hí, mình tắt phím này rồi!!');
+            return false;
+        }
+    }
+
+    // To To Disable ctrl+c, ctrl+u
+
+    jQuery(document).ready(function($) {
+        $(document).keydown(function(event) {
+            var pressedKey = String.fromCharCode(event.keyCode).toLowerCase();
+
+            if (event.ctrlKey && (pressedKey == "c" || pressedKey == "u")) {
+                alert('Xin lỗi bạn hí hí, mình tắt tổ hợp phím này rồi!!');
+                //disable key press porcessing
+                return false;
+            }
+            if (event.ctrlKey && event.shiftKey && (pressedKey == "i")) {
+                alert('Xin lỗi bạn hí hí, mình tắt tổ hợp phím này rồi!!');
+                //disable key press porcessing
+                return false;
+            }
+        });
+    }); 
+</script>
+<script src="./scripts/player.js"></script>
+<script>
+    const deg = 6;
+    const hr =document.querySelector('#hr');
+    const mn =document.querySelector('#mn');
+    const sc =document.querySelector('#sc');
+    
+setInterval(() => {
+    let day = new Date();
+    let hh = day.getHours() * 30;
+    let mm = day.getMinutes() * deg;
+    let ss = day.getSeconds() * deg;
+
+    hr.style.transform = `rotateZ(${hh+(mm/12)}deg)`;
+    mn.style.transform = `rotateZ(${(mm)}deg)`;
+    sc.style.transform = `rotateZ(${(ss)}deg)`;
+})
+document.getElementById('clock').innerHTML =
+hours+ "  :  " + minutes + "  :  " + seconds + " " +amPm;
+var t = setTimeout(realtimeClock,500);
+
+    
+</script>
+
+</html>
